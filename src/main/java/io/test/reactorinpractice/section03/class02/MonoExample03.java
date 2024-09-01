@@ -1,4 +1,4 @@
-package io.test.reactorinpractice.selection03.class02;
+package io.test.reactorinpractice.section03.class02;
 
 import com.jayway.jsonpath.DocumentContext;
 import com.jayway.jsonpath.JsonPath;

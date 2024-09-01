@@ -1,8 +1,7 @@
-package io.test.reactorinpractice.selection03.class02;
+package io.test.reactorinpractice.section03.class02;
 
 import lombok.extern.slf4j.Slf4j;
 import reactor.core.publisher.Flux;
-import reactor.core.publisher.Mono;
 
 /**
  * 여러 개의 Flux를 연결해서 하나의 Flux로 결합하는 예제

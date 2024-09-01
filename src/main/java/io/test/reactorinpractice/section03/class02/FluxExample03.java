@@ -1,4 +1,4 @@
-package io.test.reactorinpractice.selection03.class02;
+package io.test.reactorinpractice.section03.class02;
 
 import lombok.extern.slf4j.Slf4j;
 import reactor.core.publisher.Flux;
