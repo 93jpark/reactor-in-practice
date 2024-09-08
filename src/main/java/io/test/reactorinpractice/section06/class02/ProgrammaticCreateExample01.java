@@ -17,7 +17,7 @@ import java.util.stream.IntStream;
 public class ProgrammaticCreateExample01 {
     public static void main(String[] args) {
         int tasks = 6;
-        Flux    // create operator의 경우, 일반적으로 emit할 데이터를 단일 스레드에서 생성. 멀티쓰레드에서도 생성 가능
+        Flux    // create Operator의 경우, 일반적으로 emit할 데이터를 단일 스레드에서 생성. 멀티쓰레드에서도 생성 가능
                 .create((FluxSink<String> sink) -> { // FluxSink는 데이터를 동기적 또는 비동기적으로 에밋해주는 역할
                     IntStream
                             .range(1, tasks)
